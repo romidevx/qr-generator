@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css">
+  <title> QrCode Generator</title>
+</head>
+<body>
+
+<div class="container">
+
+    <form class="form">
+        <input type="text" name="link" placeholder="Enter Link, ex: https://www.linkaddress.com" required>
+        <button>Generate QrCode</button>
+    </form>
+
+    <div class="qrcode">
+        <!-- INSERT QRCODE IMAGE HERE -->
+    </div>
+
+    <button class="reset-form-btn">Generate new QrCode</button>
+  
+</div>
+  
+<!-- Load Qrcode Library -->
+<script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>
